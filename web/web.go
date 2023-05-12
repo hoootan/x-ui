@@ -367,6 +367,10 @@ func (s *Server) Start() (err error) {
 	if err != nil {
 		return err
 	}
+	listenAddress, err := s.settingService.GetListenAddress()
+	if err != nil {
+		return err
+	}
 	listen, err := s.settingService.GetListen()
 	if err != nil {
 		return err

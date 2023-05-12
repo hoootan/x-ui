@@ -206,6 +206,7 @@
 "xrayConfiguration" = "xray Configuration"
 "TGReminder" = "TG Reminder Related Settings"
 "otherSetting" = "Other Setting"
+"panelListeningAddress" = "Panel listening address"
 "panelListeningIP" = "Panel listening IP"
 "panelListeningIPDesc" = "Leave blank by default to monitor all IPs, restart the panel to take effect"
 "panelPort" = "Panel Port"

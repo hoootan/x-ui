@@ -206,6 +206,7 @@
 "xrayConfiguration" = "تنظیمات Xray"
 "TGReminder" = "تنظیمات ربات تلگرام"
 "otherSetting" = "دیگر تنظیمات"
+"panelListeningAddress" = "آدرس اتصال"
 "panelListeningIP" = "محدودیت آی پی پنل"
 "panelListeningIPDesc" = "برای استفاده از تمام IP ها به طور پیش فرض خالی بگذارید. پنل را مجدداً راه اندازی کنید تا اعمال شود"
 "panelPort" = "پورت پنل"

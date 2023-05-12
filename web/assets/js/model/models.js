@@ -158,13 +158,14 @@ class DBInbound {
     
 	get genInboundLinks() {
         const inbound = this.toInbound();
-        return inbound.genInboundLinks(this.address, this.remark);
+        return inbound.genInboundLinks(this.webURI, this.remark);
     }
 }
 
 class AllSetting {
 
     constructor(data) {
+        this.webURI = "";
         this.webListen = "";
         this.webPort = 54321;
         this.webCertFile = "";
